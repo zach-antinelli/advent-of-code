@@ -24,8 +24,3 @@ def partTwo(inputStrategy):
 
 print('Total number of points for part two:', partTwo(INPUT))
 
-
-    
-
-
-
