@@ -1,6 +1,6 @@
 INPUT = open('input.txt').read().splitlines()
 
-def partOne(inputStrategy):
+def part_one(inputStrategy):
     total = 0
     for i in inputStrategy:
         op, me = i.split()
@@ -12,7 +12,7 @@ def partOne(inputStrategy):
 
 print('Total number of points for part one:', partOne(INPUT))
 
-def partTwo(inputStrategy):
+def part_two(inputStrategy):
     total = 0
     for i in inputStrategy:
         op, me = i.split()

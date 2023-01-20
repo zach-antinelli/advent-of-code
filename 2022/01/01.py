@@ -1,6 +1,6 @@
-INPUT = open('input.txt').read()
+input_file = open('input.txt').read()
 
-def findTheFattestElf(input):
+def challenge(input):
     inputList = input.split('\n')
     results = []
     total = 0
@@ -14,4 +14,4 @@ def findTheFattestElf(input):
     print('Most calories held by one elf: ' + str(results[-1]))
     print('Calories held by top three elves combined: ' + str(results[-1] + results[-2] + results [-3]))
 
-findTheFattestElf(INPUT)
+challenge(input_file)
